@@ -167,6 +167,9 @@ section h2{
 .card:hover .texto-oculto{
     display: block;
 }
+.card h3{
+    padding: 10px 0;
+}
 
 /* FOOTER */
 footer{
