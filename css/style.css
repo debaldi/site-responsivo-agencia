@@ -18,10 +18,12 @@ body{
 .navbar{
     display: flex;
     flex-flow: row wrap;
+    position: fixed;
     height: 100px;
-    /* background-color: cadetblue; */
+     background-color: white;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .logo{
     flex: 20%;
@@ -63,10 +65,12 @@ body{
     background-color: #FF2978;
 }
 
+/* HEADER */
 .header{
     display: flex;
     flex-flow: row wrap;
     height: auto;
+    padding-top: 100px;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -100,7 +104,8 @@ body{
 .contact-btn{
     background-color: #FF2978;
     color: white;
-    padding: 20px;    
+    padding: 20px;
+    margin-top: 10px;
     text-transform: uppercase;
     border-radius: 5px;
     text-decoration: none;
@@ -120,9 +125,8 @@ section{
     margin-left: 5%;
     margin-right: 5%;
     padding: 5%;
-    text-align: center;   
-    width: 90%;
-    border: 1px solid black;
+    text-align: center;       
+    /* border: 1px solid black;*/
 }
 section h2{
     width: 100%;
@@ -151,7 +155,7 @@ section h2{
 .card:hover{
     background-color: #FF2978;
     color: white;
-    padding: 40xp;
+    padding: 46px;
 }
 .card:hover img{
     display: none;
@@ -161,4 +165,38 @@ section h2{
 }
 .card:hover .texto-oculto{
     display: block;
+}
+
+/* FOOTER */
+footer{
+    margin-top: 100px;
+    height: 300px;
+    background-image: linear-gradient(180deg, #180F4A, #090422, black);
+    text-align: center;
+    border-top: 5px solid #FF2978;
+}
+.logo-rodape{
+    padding: 90px;
+}
+.agencia{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 34px;    
+    padding-bottom: 10px;
+}
+footer .logo-rodape > p:nth-child(2){
+    color: white;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+span{    
+    font-weight: bold;
+    color: white;    
+}
+
+.whats{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 80px;
 }
