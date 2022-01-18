@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/*font-family: 'Lobster', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    /* background-color: cadetblue; */
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    flex: 20%;
+    margin-left: 10%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.logo h1{
+    color: #180F4A;
+    font-family: 'Lobster', cursive; 
+    font-size: 34px;
+}
+.menu{
+    flex: 70%;
+    /* border: 1px solid blue; */
+    text-align: right;
+    padding: 20px;
+}
+.menu a{
+    font-size: 20px;
+    padding: 20px 16px;
+    color: #180F4A;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #FF2978;
+    border-top: 4px solid #180F4A ;
+}
+#botao{
+    padding: 10px 25px;
+    margin-right: 10%;
+    margin-left: 5%;
+    color: white;
+    border-radius: 5px;
+    background-color: #180F4A;
+}
+#botao:hover{
+    border: none;
+    background-color: #FF2978;
+}
