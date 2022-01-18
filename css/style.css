@@ -27,7 +27,7 @@ body{
     flex: 20%;
     margin-left: 10%;
     /* border: 1px solid red; */
-    text-align: center;
+    text-align: left;
 }
 .logo h1{
     color: #180F4A;
@@ -61,4 +61,90 @@ body{
 #botao:hover{
     border: none;
     background-color: #FF2978;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 1px solid black; */
+}
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #180F4A;
+}
+.header .headline > h2:nth-child(1){
+    letter-spacing: 15px;
+}
+.header .headline > h2:nth-child(2){
+    font-size: 70px;
+}
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 1px solid pink; */
+    text-align: center;
+}
+.headline p{
+    color: gray;
+    text-align: left;
+}
+.contact-btn{
+    background-color: #FF2978;
+    color: white;
+    padding: 20px;    
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+.contact-btn:hover{
+    background-color: #180F4A;
+    
+}
+.img-headline img{
+    max-width: 90%;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;    
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;   
+    width: 90%;
+    border: 1px solid black;
+}
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #180F4A;
+}
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #FF2978;
+}
+.card:hover{
+    
 }
