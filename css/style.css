@@ -31,6 +31,10 @@ body{
     margin-left: 10%;
     /* border: 1px solid red; */
     text-align: left;
+    transition: 1s;
+}
+.logo:hover{
+    transform: rotateY(20deg);
 }
 .logo h1{
     color: #180F4A;
@@ -47,7 +51,7 @@ body{
     font-size: 20px;
     padding: 20px 16px;
     color: #180F4A;
-    text-decoration: none;
+    text-decoration: none;    
 }
 .menu a:hover{
     color: #FF2978;
@@ -60,10 +64,12 @@ body{
     color: white;
     border-radius: 5px;
     background-color: #180F4A;
+    transition: 1s;
 }
 #botao:hover{
     border: none;
     background-color: #FF2978;
+    border-radius: 10px;
 }
 
 /* HEADER */
@@ -111,9 +117,12 @@ body{
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
+    transition: 1s;
 }
 .contact-btn:hover{
     background-color: #180F4A;
+    border-radius: 10px;
+    
     
 }
 .img-headline img{
@@ -149,6 +158,7 @@ section h2{
     border-radius: 10px;
     cursor: pointer;
     border: 1px solid #FF2978;
+    transition: 0.5s;
 }
 .texto-oculto{
     display: none;
@@ -157,6 +167,7 @@ section h2{
     background-color: #FF2978;
     color: white;
     padding: 46px;
+    transform: rotateZ(360deg);
 }
 .card:hover img{
     display: none;
